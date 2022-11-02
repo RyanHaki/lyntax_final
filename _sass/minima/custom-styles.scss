@@ -8,13 +8,17 @@
 /*----- ADD YOUR STYLES BELOW -------*/
 
 // If you want to turn off dark background for syntax highlighting, comment or delete the below line.
-@import "minima/fastpages-dracula-highlight"; 
+/*-----------------------------------*/
+
+/*----- ADD YOUR STYLES BELOW -------*/
+
+@import "minima/dark-mode";
 
 
-.site-header {
-    background-color: rgb(255, 74, 225);
-    }
+// .site-header {
+//     background-color: rgb(255, 74, 225);
+//     }
     
-    main.page-content {
-        background-color: rgb(255, 0, 247);
-    }
+//     main.page-content {
+//         background-color: rgb(255, 0, 247);
+//     }
