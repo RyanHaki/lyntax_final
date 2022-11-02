@@ -6,6 +6,17 @@
 
   
       "page1": {
+          "title": "Hangman",
+          "content": "Welcome to Hangman! . &lt;img id=&quot;newGame src=&quot;&quot; alt=&quot;New Game&quot; height=&quot;450&quot; onclick=&quot;return newGame();&quot;&gt; | . Here is your hint: . . | . Word: . . | . Your Incorrect Guesses: . . | . | | . | . | . | . | . | . | . | | . &lt;/p&gt; &lt;/div&gt; .",
+          "url": "https://ryanhaki.github.io/lyntax_final/hangman/",
+          "relUrl": "/hangman/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page2": {
           "title": "About Me",
           "content": ". Ryan Hakimipour [^1] is a high school student who has created this fastpage as a part of AP Computer Science Principals. .",
           "url": "https://ryanhaki.github.io/lyntax_final/about/",
@@ -37,7 +48,7 @@
   
 
   
-      ,"page10": {
+      ,"page11": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://ryanhaki.github.io/lyntax_final/robots.txt",
