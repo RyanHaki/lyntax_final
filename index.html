@@ -1,12 +1,66 @@
 ---
-layout: home
 search_exclude: true
-image: images/logo.png
+title: Hangman
+image: 
 ---
+<style>
+    body {
+        font-family: 'Roboto Flex', sans-serif;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #fee3c3;
+        scroll-behavior: smooth;
+    }
 
-### Welcome to Team Lyntax's Hangman Game!
+    .text-title {
+        color: black
+    }
 
-Test
+    .position-title-y{
+        padding-top:6rem;
+        padding-bottom:3rem;
+    }
 
+    .position-title-x{
+        padding-right:3rem;
+        padding-left:3rem;
+    }
 
-# Posts
+    .auto{
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .position-subtitle-y{
+        padding-top:3rem;
+        padding-bottom:3rem;
+    }
+    
+    .btn-primary{color:#000000;background-color:#fee3c3;border-color:#fee3c3}.btn-primary:hover{color:#fff;background-color:#fee3c3;border-color:#fee3c3}.btn-check:focus+.btn-primary,.btn-primary:focus{color:#fff;background-color:#fee3c3;border-color:#fee3c3;box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}.btn-check:active+.btn-primary,.btn-check:checked+.btn-primary,.btn-primary.active,.btn-primary:active,.show>.btn-primary.dropdown-toggle{color:#fff;background-color:#0a58ca;border-color:#0a53be}.btn-check:active+.btn-primary:focus,.btn-check:checked+.btn-primary:focus,.btn-primary.active:focus,.btn-primary:active:focus,.show>.btn-primary.dropdown-toggle:focus{box-shadow:0 0 0 .25rem rgba(49,132,253,.5)}.btn-primary.disabled,.btn-primary:disabled{color:#fff;background-color:#fee3c3;border-color:#fee3c3}
+
+    .card-text:last-child{
+        margin-bottom:0;
+    }
+</style>
+<!-- Start of body content specific to page -->
+<div class="position-title-x position-title-y auto">
+    <center> <h1 class="text-title"><strong>Studying</strong></h1> </center>
+    <center><h1 class="text-title"><strong>Starts</strong> Here!</h1></center>
+    <div class="position-title-x position-subtitle-y auto">
+        <center><h5 class="text-title">Practice your skills here!</h5>
+    </div>
+    <div class="row position-title-y">
+        <div class="col-4">
+            <div class="card">
+                <img class="card-img-top" src="images/DrawingHangman0.jpg" alt="Hangman" height="250">
+                <div class="card-body">
+                <h5 class="card-title">Hangman</h5>
+                <p class="card-text">
+                    Here is a guessing game in which you have to guess the Computer Science related word based on the definition!
+                </p>
+                <a href={{ url_for('projects.portfolio') }} class="btn btn-primary">Click to begin</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
