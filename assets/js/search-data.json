@@ -8,7 +8,7 @@
       "page1": {
           "title": "About Me",
           "content": ". Ryan Hakimipour [^1] is a high school student who has created this fastpage as a part of AP Computer Science Principals. .",
-          "url": "https://ryanhaki.github.io/APCSPwebPage/about/",
+          "url": "https://ryanhaki.github.io/lyntax_final/about/",
           "relUrl": "/about/",
           "date": ""
       }
@@ -40,7 +40,7 @@
       ,"page10": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
-          "url": "https://ryanhaki.github.io/APCSPwebPage/robots.txt",
+          "url": "https://ryanhaki.github.io/lyntax_final/robots.txt",
           "relUrl": "/robots.txt",
           "date": ""
       }
