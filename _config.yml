@@ -6,11 +6,11 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: Ryan Hakimipour
-description: Ryan Hakimipour's blog
+title: Team Lyntax Final Project
+description: Lyntax P5 Yeung
 github_username: RyanHaki
 # you can comment the below line out if your repo name is not different than your baseurl
-github_repo: "APCSPwebPage"
+github_repo: "lyntax_final"
 
 # OPTIONAL: override baseurl and url if using a custom domain
 # Note: leave out the trailing / from this value. 
@@ -34,7 +34,7 @@ url: "https://RyanHaki.github.io" # the base hostname & protocol for your site, 
 #
 # 3. You must replace the parameter `baseurl` in _action_files/settings.ini with the same value as you set here but WITHOUT QUOTES.
 #
-baseurl: "/APCSPwebPage" # the subpath of your site, e.g. "/blog".
+baseurl: "/lyntax_final" # the subpath of your site, e.g. "/blog".
 
 # Github and twitter are optional:
 minima:
