@@ -168,8 +168,7 @@
         {
             const http = new XMLHttpRequest()
 
-            http.open("GET", "http://lyntax.ml/api/newgame") // uncomment for final
-            // http.open("GET", "/api/newgame") // uncomment for local testing
+            http.open("GET", "https://lyntax.ml/api/newgame")
             
             http.send()
             http.onload = () => { 
