@@ -7,7 +7,7 @@
   
       "page1": {
           "title": "Hangman",
-          "content": "Welcome to Hangman! . | . Here is your hint: . . | . Word: . . | . Your Incorrect Guesses: . . | . | | . | . | . | . | . | . | . | | . &lt;/p&gt; &lt;/div&gt; .",
+          "content": "Welcome to Hangman! . Here is your definition: . . Your Word: . . Your Incorrect Guesses: . . Your Guess is: . .",
           "url": "https://ryanhaki.github.io/lyntax_final/hangman/",
           "relUrl": "/hangman/",
           "date": ""
