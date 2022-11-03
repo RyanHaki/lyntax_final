@@ -18,7 +18,7 @@
   
       ,"page2": {
           "title": "Hangman2",
-          "content": "Welcome to Hangman! . | . Here is your hint: . . | . Word: . . | . Your Incorrect Guesses: . . | . | | . | . | . | . | . | . | . | | . &lt;/p&gt; &lt;/div&gt; .",
+          "content": "Welcome to Hangman! . | . Here is your definition: . . | . Word: . . | . Your Incorrect Guesses: . . | . | | . | . | . | . | . | . | . &lt;/div&gt; &lt;/div&gt;",
           "url": "https://ryanhaki.github.io/lyntax_final/hangman2/",
           "relUrl": "/hangman2/",
           "date": ""

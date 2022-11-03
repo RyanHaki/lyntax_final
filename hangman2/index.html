@@ -42,7 +42,7 @@
                     <table>
                         <tr>
                             <td>
-                                <h3 class="text-black">Here is your hint:</h3>
+                                <h3 class="text-black">Here is your definition:</h3>
                                 <h4 id="definition"></h4>
                             </td>
                         </tr>
@@ -117,29 +117,14 @@
                                     <input type="button" value="Z" onclick="Letter(this)" id="mykey"/>
                                 </td>
                             </tr>
-                            <tr>
-                                <td>
-                                    <input type="label" id="selection" name="selection" >
-                                    <input type="button" value="Submit" onclick="return submitInput();">
-                                    
-                                </td>
-                            </tr>
                         </table>
                         
-                        </form>                     
+                    </form>                     
                 
-                    </td>
-                    <td>
-                        
                     </td>
                 </tr>
 
             </tbody>
-
-    </table>
-    <span id = "key"></span>
-    <span id = "demo"></span>
-    </p>
 </div>
 
 <script>
@@ -208,32 +193,31 @@
         request2.send(myJSON)
 
         request2.onload = () => { 
-            console.log(request2);
-            if (request2.readyState == 4 && request2.status == 200) {
-                debug(request2.responseText); //uncomment to show debug
-                res = JSON.parse(request2.responseText);
-                if(!res.status){
-                    // if((res.status != 'WIN') || (res.status == 'END') ||(res.status == 'ERR')){
-                    //     alert(res.reason)
-                    // }
-                    // else{
+                console.log(request2);
+                if ((request2.readyState == 4) && (request2.status == 200)) {
+                    res = JSON.parse(request2.responseText);
+                    if(res.status){
                         updateState(res);
                         // alert(res.bodyparts)
                         updateImage(parseInt(res.bodyparts))
-                    // }
-
+                        if ((res.status == 'END')||(res.status == 'WIN')){
+                            gameover = true;
+                            document.getElementById("result").innerHTML = res.reason
+                        }
+                    }
+                }
+                else{
+                    console.log('error ${request2.state} ${request2.statusText')
                 }
             }
-            else{
-                console.log('error ${request2.state} ${request2.statusText')
-            }
+
         }
 
-    }
-
     function Letter(x) {
-        // document.getElementById("key").innerHTML = x.value;
-        selection.value = x.value
+        if (gameover != true){
+            document.getElementById("key").innerHTML = x.value;
+            submitInput();
+        }
     }
 
     function updateImage(incorrectAns){
