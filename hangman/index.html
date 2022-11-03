@@ -1,7 +1,3 @@
----
-permalink: /hangman/
-title: Hangman
----
 <style>
     table, td, th {
       /* border: 1px solid black; */
@@ -37,7 +33,7 @@ title: Hangman
                 <tr>
                 <th><h1 class="text-black"><strong>Welcome to Hangman!</strong></h1></th>
                 <td>
-                    <img id="newGame src="" alt="New Game" height="450" onclick="return newGame();">
+                    <img id="newGame" src="/lyntax_final/images/newGame.jpg" alt="HangmanGame" height="450" onclick="return newGame();">
                 </td>
             </tr>
         <tbody>
@@ -66,7 +62,7 @@ title: Hangman
                 </td>
 
                 <td rowspan="3">
-                    <img id="hangmanImage" src="" alt="HangmanGame" height="450">
+                    <img id="hangmanImage" src="/lyntax_final/images/DrawingHangman0.jpg" alt="HangmanGame" height="450">
                 </td>
                 </tr>
                 <tr>
@@ -245,27 +241,27 @@ title: Hangman
         
         // alert(incorrectAns)
         if (incorrectAns == 1) {
-            document.getElementById("hangmanImage").src=""
+            document.getElementById("hangmanImage").src="/lyntax_final/images/DrawingHangman1.jpg"
             console.log("image1")
         }
         else if (incorrectAns == 2) {
-            document.getElementById("hangmanImage").src=""
+            document.getElementById("hangmanImage").src="/lyntax_final/images/DrawingHangman2.jpg"
             console.log("image2")
         }
         else if (incorrectAns == 3) {
-            document.getElementById("hangmanImage").src=""
+            document.getElementById("hangmanImage").src="/lyntax_final/images/DrawingHangman3.jpg"
             console.log("image3")
         }
         else if (incorrectAns == 4) {
-            document.getElementById("hangmanImage").src=""
+            document.getElementById("hangmanImage").src="/lyntax_final/images/DrawingHangman4.jpg"
             console.log("image4")
         }
         else if (incorrectAns == 5) {
-            document.getElementById("hangmanImage").src=""
+            document.getElementById("hangmanImage").src="/lyntax_final/images/DrawingHangman5.jpg"
             console.log("image5")
         }
         else if (incorrectAns == 6) {
-            document.getElementById("hangmanImage").src=""
+            document.getElementById("hangmanImage").src="/lyntax_final/images/DrawingHangman6.jpg"
             console.log("image6")
         }
     }

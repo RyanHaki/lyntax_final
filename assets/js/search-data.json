@@ -7,7 +7,7 @@
   
       "page1": {
           "title": "Hangman",
-          "content": ". permalink: /hangman/ title: Hangman — . Welcome to Hangman! . &lt;img id=&quot;newGame src=&quot;&quot; alt=&quot;New Game&quot; height=&quot;450&quot; onclick=&quot;return newGame();&quot;&gt; | . Here is your hint: . . | . Word: . . | . Your Incorrect Guesses: . . | . | | . | . | . | . | . | . | . | | . &lt;/p&gt; &lt;/div&gt; .",
+          "content": "Welcome to Hangman! . | . Here is your hint: . . | . Word: . . | . Your Incorrect Guesses: . . | . | | . | . | . | . | . | . | . | | . &lt;/p&gt; &lt;/div&gt; .",
           "url": "https://ryanhaki.github.io/lyntax_final/hangman/",
           "relUrl": "/hangman/",
           "date": ""
