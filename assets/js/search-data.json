@@ -17,6 +17,17 @@
 
   
       ,"page2": {
+          "title": "Hangman2",
+          "content": "Welcome to Hangman! . | . Here is your hint: . . | . Word: . . | . Your Incorrect Guesses: . . | . | | . | . | . | . | . | . | . | | . &lt;/p&gt; &lt;/div&gt; .",
+          "url": "https://ryanhaki.github.io/lyntax_final/hangman2/",
+          "relUrl": "/hangman2/",
+          "date": ""
+      }
+      
+  
+
+  
+      ,"page3": {
           "title": "About Me",
           "content": ". Ryan Hakimipour [^1] is a high school student who has created this fastpage as a part of AP Computer Science Principals. .",
           "url": "https://ryanhaki.github.io/lyntax_final/about/",
@@ -48,7 +59,7 @@
   
 
   
-      ,"page11": {
+      ,"page12": {
           "title": "",
           "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
           "url": "https://ryanhaki.github.io/lyntax_final/robots.txt",
